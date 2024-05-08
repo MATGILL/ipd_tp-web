@@ -1,5 +1,5 @@
-# Utilisation d'une image Tomcat avec OpenJDK 21
-FROM tomcat:9.0-jdk21-openjdk-slim
+# Utilisation d'une image Tomcat 10 avec une version récente de JDK
+FROM tomcat:10-jdk17-openjdk-slim
 
 # Installation de git
 RUN apt-get update && apt-get install -y git
